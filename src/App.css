@@ -1,0 +1,16 @@
+#root{
+    
+    background-image: linear-gradient(to right , #dbc895, #d578a0, #89afe0);
+}
+.home{
+
+    background-color: rgba(236, 146, 199, 0);
+    padding: 25px;
+    margin-top: 20px;
+    font-size: larger;
+}
+#akıllı{
+    width:80%;
+    height:auto;
+    margin-bottom: 50px;
+}
