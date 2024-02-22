@@ -28,10 +28,10 @@ function CardBusmek() {
         const filteredIlce = filterIlce.toLowerCase();
         const filteredMahalle = filterMahalle.toLowerCase();
 
-        if (filterIlce && ilce !== filteredIlce) {
+       if (filterIlce && ilce.indexOf(filteredIlce) === -1) {
             return false;
         }
-        if (filterMahalle && mahalle !== filteredMahalle) {
+        if (filterMahalle && mahalle.indexOf(filteredMahalle) === -1) {
             return false;
         }
         return true;
